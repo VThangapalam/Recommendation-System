@@ -1,0 +1,2 @@
+vocab:
+[('action', 0), ('adventure', 1), ('animation', 2), ('children', 3), ('comedy', 4), ('crime', 5), ('documentary', 6), ('drama', 7), ('fantasy', 8), ('film-noir', 9), ('genres', 10), ('horror', 11), ('imax', 12), ('listed', 13), ('musical', 14), ('mystery', 15), ('no', 16), ('romance', 17), ('sci-fi', 18), ('thriller', 19), ('war', 20), ('western', 21)]

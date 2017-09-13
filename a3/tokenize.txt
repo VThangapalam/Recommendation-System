@@ -1,0 +1,191 @@
+********************from tokenize **************************
+      movieId                                              title  \
+0           1                                   Toy Story (1995)   
+1           2                                     Jumanji (1995)   
+2           3                            Grumpier Old Men (1995)   
+3           4                           Waiting to Exhale (1995)   
+4           5                 Father of the Bride Part II (1995)   
+5           6                                        Heat (1995)   
+6           7                                     Sabrina (1995)   
+7           8                                Tom and Huck (1995)   
+8           9                                Sudden Death (1995)   
+9          10                                   GoldenEye (1995)   
+10         11                     American President, The (1995)   
+11         12                 Dracula: Dead and Loving It (1995)   
+12         13                                       Balto (1995)   
+13         14                                       Nixon (1995)   
+14         15                            Cutthroat Island (1995)   
+15         16                                      Casino (1995)   
+16         17                       Sense and Sensibility (1995)   
+17         18                                  Four Rooms (1995)   
+18         19              Ace Ventura: When Nature Calls (1995)   
+19         20                                 Money Train (1995)   
+20         21                                  Get Shorty (1995)   
+21         22                                     Copycat (1995)   
+22         23                                   Assassins (1995)   
+23         24                                      Powder (1995)   
+24         25                           Leaving Las Vegas (1995)   
+25         26                                     Othello (1995)   
+26         27                                Now and Then (1995)   
+27         28                                  Persuasion (1995)   
+28         29  City of Lost Children, The (Cité des enfants p...   
+29         30  Shanghai Triad (Yao a yao yao dao waipo qiao) ...   
+...       ...                                                ...   
+9095   159690  Teenage Mutant Ninja Turtles: Out of the Shado...   
+9096   159755          Popstar: Never Stop Never Stopping (2016)   
+9097   159858                             The Conjuring 2 (2016)   
+9098   159972                     Approaching the Unknown (2016)   
+9099   160080                                Ghostbusters (2016)   
+9100   160271                        Central Intelligence (2016)   
+9101   160438                                Jason Bourne (2016)   
+9102   160440                             The Maid's Room (2014)   
+9103   160563                        The Legend of Tarzan (2016)   
+9104   160565                    The Purge: Election Year (2016)   
+9105   160567              Mike & Dave Need Wedding Dates (2016)   
+9106   160590                         Survive and Advance (2013)   
+9107   160656                                    Tallulah (2016)   
+9108   160718                                       Piper (2016)   
+9109   160954                                       Nerve (2016)   
+9110   161084                       My Friend Rockefeller (2015)   
+9111   161155                                   Sunspring (2016)   
+9112   161336                  Author: The JT LeRoy Story (2016)   
+9113   161582                          Hell or High Water (2016)   
+9114   161594               Kingsglaive: Final Fantasy XV (2016)   
+9115   161830                                        Body (2015)   
+9116   161918                Sharknado 4: The 4th Awakens (2016)   
+9117   161944              The Last Brickmaker in America (2001)   
+9118   162376                                    Stranger Things   
+9119   162542                                      Rustom (2016)   
+9120   162672                                Mohenjo Daro (2016)   
+9121   163056                               Shin Godzilla (2016)   
+9122   163949  The Beatles: Eight Days a Week - The Touring Y...   
+9123   164977                           The Gay Desperado (1936)   
+9124   164979                              Women of '69, Unboxed   
+
+                                               genres  \
+0         Adventure|Animation|Children|Comedy|Fantasy   
+1                          Adventure|Children|Fantasy   
+2                                      Comedy|Romance   
+3                                Comedy|Drama|Romance   
+4                                              Comedy   
+5                               Action|Crime|Thriller   
+6                                      Comedy|Romance   
+7                                  Adventure|Children   
+8                                              Action   
+9                           Action|Adventure|Thriller   
+10                               Comedy|Drama|Romance   
+11                                      Comedy|Horror   
+12                       Adventure|Animation|Children   
+13                                              Drama   
+14                           Action|Adventure|Romance   
+15                                        Crime|Drama   
+16                                      Drama|Romance   
+17                                             Comedy   
+18                                             Comedy   
+19                 Action|Comedy|Crime|Drama|Thriller   
+20                              Comedy|Crime|Thriller   
+21                Crime|Drama|Horror|Mystery|Thriller   
+22                              Action|Crime|Thriller   
+23                                       Drama|Sci-Fi   
+24                                      Drama|Romance   
+25                                              Drama   
+26                                     Children|Drama   
+27                                      Drama|Romance   
+28             Adventure|Drama|Fantasy|Mystery|Sci-Fi   
+29                                        Crime|Drama   
+...                                               ...   
+9095                          Action|Adventure|Comedy   
+9096                                           Comedy   
+9097                                           Horror   
+9098                            Drama|Sci-Fi|Thriller   
+9099                      Action|Comedy|Horror|Sci-Fi   
+9100                                    Action|Comedy   
+9101                                           Action   
+9102                                         Thriller   
+9103                                 Action|Adventure   
+9104                             Action|Horror|Sci-Fi   
+9105                                           Comedy   
+9106                               (no genres listed)   
+9107                                            Drama   
+9108                                        Animation   
+9109                                   Drama|Thriller   
+9110                                      Documentary   
+9111                                           Sci-Fi   
+9112                                      Documentary   
+9113                                      Crime|Drama   
+9114  Action|Adventure|Animation|Drama|Fantasy|Sci-Fi   
+9115                            Drama|Horror|Thriller   
+9116                   Action|Adventure|Horror|Sci-Fi   
+9117                                            Drama   
+9118                                            Drama   
+9119                                 Romance|Thriller   
+9120                          Adventure|Drama|Romance   
+9121                  Action|Adventure|Fantasy|Sci-Fi   
+9122                                      Documentary   
+9123                                           Comedy   
+9124                                      Documentary   
+
+                                                 tokens  
+0     [adventure, animation, children, comedy, fantasy]  
+1                        [adventure, children, fantasy]  
+2                                     [comedy, romance]  
+3                              [comedy, drama, romance]  
+4                                              [comedy]  
+5                             [action, crime, thriller]  
+6                                     [comedy, romance]  
+7                                 [adventure, children]  
+8                                              [action]  
+9                         [action, adventure, thriller]  
+10                             [comedy, drama, romance]  
+11                                     [comedy, horror]  
+12                     [adventure, animation, children]  
+13                                              [drama]  
+14                         [action, adventure, romance]  
+15                                       [crime, drama]  
+16                                     [drama, romance]  
+17                                             [comedy]  
+18                                             [comedy]  
+19             [action, comedy, crime, drama, thriller]  
+20                            [comedy, crime, thriller]  
+21            [crime, drama, horror, mystery, thriller]  
+22                            [action, crime, thriller]  
+23                                      [drama, sci-fi]  
+24                                     [drama, romance]  
+25                                              [drama]  
+26                                    [children, drama]  
+27                                     [drama, romance]  
+28         [adventure, drama, fantasy, mystery, sci-fi]  
+29                                       [crime, drama]  
+...                                                 ...  
+9095                        [action, adventure, comedy]  
+9096                                           [comedy]  
+9097                                           [horror]  
+9098                          [drama, sci-fi, thriller]  
+9099                   [action, comedy, horror, sci-fi]  
+9100                                   [action, comedy]  
+9101                                           [action]  
+9102                                         [thriller]  
+9103                                [action, adventure]  
+9104                           [action, horror, sci-fi]  
+9105                                           [comedy]  
+9106                               [no, genres, listed]  
+9107                                            [drama]  
+9108                                        [animation]  
+9109                                  [drama, thriller]  
+9110                                      [documentary]  
+9111                                           [sci-fi]  
+9112                                      [documentary]  
+9113                                     [crime, drama]  
+9114  [action, adventure, animation, drama, fantasy,...  
+9115                          [drama, horror, thriller]  
+9116                [action, adventure, horror, sci-fi]  
+9117                                            [drama]  
+9118                                            [drama]  
+9119                                [romance, thriller]  
+9120                        [adventure, drama, romance]  
+9121               [action, adventure, fantasy, sci-fi]  
+9122                                      [documentary]  
+9123                                           [comedy]  
+9124                                      [documentary]  
+
+[9125 rows x 4 columns]
